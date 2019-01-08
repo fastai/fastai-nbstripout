@@ -1,6 +1,6 @@
 # fastai-nbstripout
 
-A much faster version of nbstripout
+A much faster version of nbstripout, and autotrust notebooks local git configuration 
 
 ## About
 
