@@ -1,6 +1,6 @@
 # fastai-nbstripout
 
-A much faster version of nbstripout, and autotrust notebooks local git configuration 
+A much faster version of nbstripout, and autotrust notebooks local git configuration
 
 ## About
 
@@ -84,7 +84,7 @@ Unfortunately, due to the way git security is set up, there is no other way to g
 Change the instructions for your projects to include the local git setup. For example, for this project it'd become:
 
    ```
-   git clone https://github.com/stas00/fastai-nbstripout
+   git clone https://github.com/fastai/fastai-nbstripout
    cd fastai-nbstripout
    tools/run-after-git-clone
    ```
