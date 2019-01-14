@@ -8,11 +8,15 @@ This is a rewrite of [nbstripout](https://github.com/kynan/nbstripout). It's muc
 
 It's used in all [fastai](https://github.com/fastai/) projects, and this repo was created to make it easy to re-use it in other projects, so all files are in one place.
 
-## Not identical to nbstripout's functionality
+## As is software - not identical to nbstripout's functionality
 
-This tool implements only a sub-set of nbstripout (most of it) and makes no attempt to either be identical or try to keep it in sync. It implements the parts we needed for fastai needs.
+This tool implements only a sub-set of nbstripout (most of it) and makes no attempt to neither be identical nor try to keep it in sync with nbstripout. It implements the parts we needed for fastai needs.
 
-This repository's purpose is not to maintain a different implementation of nbstripout, but to make it easy to integrate the existing functionality into other fastai projects, since it involves quite a few files. If you'd like to create and maintain a faster version of nbstripout with all the features it provides, please feel free to fork this implementation and build upon it.
+This repository's purpose is not to maintain a different implementation of nbstripout, but to make it easy to integrate the existing functionality into other fastai projects, since it involves quite a few files. 
+
+Therefore please submit no PRs or Issues unless you found a bug in the current implementation. 
+
+If you'd like to create and maintain a faster version of nbstripout with all the features it provides, please feel free to fork this implementation and build upon it.
 
 ## Structure
 
