@@ -1,12 +1,18 @@
 # fastai-nbstripout
 
-A much faster version of nbstripout, and autotrust notebooks local git configuration
+A much faster version of nbstripout with a slightly different set of features, and autotrust notebooks local git configuration
 
 ## About
 
-This is a rewrite of [nbstripout](https://github.com/kynan/nbstripout), it's much faster because it doesn't load any of the very heavy `nbformat`, and operates on the json file directly.
+This is a rewrite of [nbstripout](https://github.com/kynan/nbstripout). It's much faster because it doesn't load any of the very heavy `nbformat`, and operates on the json file directly.
 
 It's used in all [fastai](https://github.com/fastai/) projects, and this repo was created to make it easy to re-use it in other projects, so all files are in one place.
+
+## Not identical to nbstripout's functionality
+
+This tool implements only a sub-set of nbstripout (most of it) and makes no attempt to either be identical or try to keep it in sync. It implements the parts we needed for fastai needs.
+
+This repository's purpose is not to maintain a different implementation of nbstripout, but to make it easy to integrate the existing functionality into other fastai projects, since it involves quite a few files. If you'd like to create and maintain a faster version of nbstripout with all the features it provides, please feel free to fork this implementation and build upon it.
 
 ## Structure
 
